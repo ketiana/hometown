@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+img {
+    width: 100px;
+}
+
+#header {
+    background: url("images/miami2.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h2 {
+    background: #D0F4DE;
+    padding: 10px 12px;
+    border-radius: 6px;
+    color: #3a5a40;
+}
+
+.activities {
+    background: linear-gradient(#A9DEF9, #dfe7fd);
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.activities-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.museum-img, .jungle-img, .beach-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform .5s ease;
+}
+
+.museum-img:hover, .jungle-img:hover, .beach-img:hover {
+    transform: scale(1.5);
+}
+
+.museum, .jungle, .beach {
+    margin: 30px 60px;
+}
+
+
+.guide-card {
+    background-color: #E4C1F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 450px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 6px;
+    border-bottom: 8px solid #FF99C8;
+    font-size: 18px;
+}
+
+.guide {
+    border-radius: 50%;
+    width: 150px;
+}
+
+
+
+
+
